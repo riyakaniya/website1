@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../web/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../.././../../web/js/jquery-3.6.1.min.js">
+    <script src="../../web/js/jquery-3.6.1.min.js"></script>
+    <link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family
+=Roboto:wght@100;300;500;700;900&display=swap"
+rel="stylesheet">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/6.2.1/css/all.min.css"
+integrity="sha512-
+MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7
+lzPJQd1w=="
+crossorigin="anonymous"referrerpolicy="no-referrer"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min
+.css"rel="stylesheet"integrity="sha384-
+EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"crossorigin="
+anonymous">
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css
+ /bootstrap.min.css" 
+        integrity="sha384
+Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="
+ anonymous"> 
+     
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font
+awesome/6.2.1/css/all.min.css" 
+        integrity="sha512
+MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7
+ lzPJQd1w==" 
+        crossorigin="anonymous"referrerpolicy="no-referrer"/> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid text-center text-dark">
+            <div class="row logo">
+                <img src="https://suyashfashion.com/cdn/shop/files/Asset_2.png?v=1711268196&width=200" alt="img1" class="img1">
+                <!-- <h2>Suyash</h2> -->
+            </div>
+        </div>
+        <div class="collapse navbar-collapse d-flex justify-content-end"id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="login.html"><img src="https://static.vecteezy.com/system/resources/previews/019/879/186/original/user-icon-on-transparent-background-free-png.png"  alt="img" class="img rounded"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="search"><i class="fa fa-search"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="shop"><i class="fa fa-shop"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid text-center ">
+            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="arrival.html" class="newa">New Arrival<i class="fa-solid fa-caret-down"></i></a>
+                <a href="#" class="new">Womens<i class="fa-solid fa-caret-down"></i></a>
+                <div class="Womens">
+                    <div class="col">
+                        <a href="#" >Kurta Sets</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Co-ord Sets</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Tops</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Tunic And Trousers</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Kaftans</a>    
+                    </div>
+                </div>
+                <a href="#" class="cnew">Mens<i class="fa-solid fa-caret-down"></i></a>
+                <div class="Mens">
+                    <div class="col">
+                        <a href="#" >All Shirts </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Kurtas</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Checked Shirts</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Solid Shirts</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Printed Shirts</a>    
+                    </div>
+                    <div class="col">
+                        <a href="#">Co-ord Sets</a>    
+                    </div>
+                </div>
+                <a href="#" class="new">Western Wear<i class="fa-solid fa-caret-down"></i></a>
+                <a href="#" class="new">Couple's Collection<i class="fa-solid fa-caret-down"></i></a>
+                <a href="#" class="snew">Sale<i class="fa-solid fa-caret-down"></i></a>
+                <div class="sale">
+                    <div class="col">
+                        <a href="#" >Mens</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" >Womens</a>
+                    </div>
+                </div>
+              </div>
+              
+              <span style="font-size:30px;cursor:pointer;color:rosybrown" onclick="openNav()">&#9776; Menu</span>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+              </script>   
+    </nav>
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="https://suyashfashion.com/cdn/shop/files/Desktop-Landing-3.png?v=1713163129&width=1800" alt="image1" class="img4">
+                </div>
+            </div>
+            <h2 class="border text-center mt-5">New Arrival</h2>
+            <div class="row arrival">
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A3749.jpg?v=1711264372&width=500" alt="im1" class="im1">
+                    <p class="price">Khwaab E Ishq One Piece Dress</p>
+                    <h5 class="price">₹1,599.00</h5>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A3136.jpg?v=1711262740&width=1000" alt="im1" class="im1">
+                    <p class="price">Khwaab E Ishq Dress</p>
+                    <h5 class="price">₹ 1,999.00</h5>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A2798.jpg?v=1711265584&width=1000" alt="im1" class="im1">
+                    <p class="price">Rang E Haldi Co-Ord Set</p>
+                    <h5 class="price">₹ 2,200.00 </h5>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A3785.jpg?v=1711265322&width=1000" alt="im1" class="im1">
+                    <p class="price">Jug Purple Tie Dye Co-Ord Set</p>
+                    <h5 class="price">₹ 2,499.00 </h5>
+                </div>
+            </div>
+            <div class="form">
+                <button type="submit" class="submit mt-3" >View All</button>
+            </div>
+            <h2 class="border text-center mt-3">Couple's Collection</h2>
+            <div class="row collection mt-3">
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A2798.jpg?v=1711265584&width=1000" alt="im1" class="im1">
+                    <p class="price">Rang E Haldi Co-Ord Set</p>
+                    <h5 class="price">₹ 2,200.00 </h5>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A3585.jpg?v=1711214416&width=1000" alt="im1" class="im1">
+                    <p class="price">Rang E Haldi Mens Half Sleeve Shirt Sale price </p>
+                    <h5 class="price">₹ 1,100.00 </h5>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A3856.jpg?v=1711213755&width=1000" alt="im1" class="im1">
+                    <p class="price">Ek Adha Co-Ord Set </p>
+                    <h5 class="price">₹ 1,799.00  </h5>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A2726.jpg?v=1711214744&width=1000" alt="im1" class="im1">
+                    <p class="price">Ek Adha Mens Shirt </p>
+                    <h5 class="price">₹ 1,200.00  </h5>
+                </div>
+                <div class="form">
+                </div>
+            </div>
+            <a href="#" class="text1 text-center mt-5" aria-current="true" >Womens Kurta</a>
+            <a href="#" class="text text-center mt-5" aria-current="false">Co-ord Sets</a>
+            <!-- <button type="button" class="text1 mt-5 " aria-current="true">Womens Kurta</button>
+            <button type="button" class="text1 " aria-current="false">Co-ord Sets</button> -->
+            <div class="scroll-container mt-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/IMG_9842.jpg?v=1712573684&width=500" alt="im1" class="im1 mt-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/IMG_6125.jpg?v=1697266563&width=300" alt="im1" class="im1 mt-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/IMG_5894.jpg?v=1697265337&width=300" alt="im1" class="im1 mt-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A3724.jpg?v=1711215470&width=300" alt="im1" class="im1 mt-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A3799.jpg?v   =1711265322&width=300" alt="im1" class="im1 mt-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A3858.jpg?v=1711265071&width=300" alt="im1" class="im1 mt-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/IMG_6495.jpg?v=1691521518&width=1000" alt="im1" class="im1 mt-3">
+                    <img src="https://suyashfashion.com/cdn/shop/files/035A2802.jpg?v=1711265595&width=1000" alt="im1" class="im1 mt-3">
+            </div>
+            <h4 class="text text-center mt-3">SALE</h4>
+            
+            <a href="#" class="text1 text-center mt-5" aria-current="true" >Mens</a>
+            <a href="#" class="text text-center mt-5" aria-current="false">Womens</a>
+            <div class="scroll-container row">
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/products/IMG_1888.jpg?v=1674806978&width=500" alt="im1" class="im1">
+                    <h5 class="text">Dark Green Sanganeri Print half <br> shirt</h5>
+                    <p class="text">₹ 499.00</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/products/IMG_1891.jpg?v=1674806930&width=1000" alt="im1" class="im1">
+                    <h5 class="text">Blue Sanganeri Print Half shirt</h5>
+                    <p class="text">₹ 499.00</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/products/IMG_7062.jpg?v=1676989621&width=600" alt="im1" class="im1">
+                    <h5 class="text">Blue Digital Floral Print Half <br> shirt</h5>
+                    <p class="text">₹ 699.00</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/products/IMG_7067.jpg?v=1676989667&width=600" alt="im1" class="im1">
+                    <h5 class="text">Black & White Print Half Shirt</h5>
+                    <p class="text">₹ 699.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/products/IMG_0491.jpg?v=1659004024&width=1000" alt="im1" class="im1">
+                    <h5 class="text">Rhombus Print Kaftan</h5>
+                    <p class="text">₹ 590.00</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/products/IMG_0487.jpg?v=1659003980&width=1000" alt="im1" class="im1">
+                    <h5 class="text">Lavender Kaftan</h5>
+                    <p class="text">₹ 590.00</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/products/IMG_9826.jpg?v=1655655627&width=1000" alt="im1" class="im1">
+                    <h5 class="text">Yellow Floral Kurta</h5>
+                    <p class="text">₹ 750.00</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://suyashfashion.com/cdn/shop/products/30.png?v=1686985047&width=1000" alt="im1" class="im1">
+                    <h5 class="text">Yellow Salwar Set</h5>
+                    <p class="text">₹ 799.00</p>
+                </div>
+            </div>
+            <div class="form">
+                <button type="button" class="submit text-center mt-3">Shop More</button>
+            </div>
+            <footer class="container-fluid mt-5">
+                <div class="row ">
+                    <h6>Info</h6>
+                    <div class="col-lg-9">
+                    <ul class="text">
+                        <a href="" class="text">Track Your Order</a>
+                        <br>    
+                        <a href="" class="text">About Us</a>
+                        <br>
+                        <a href="" class="text">Privacy Policy</a>
+                        <br>
+                        <a href="" class="text">Privacy Policy</a>
+                        <br>
+                        <a href="" class="text">Terms and Conditions</a>
+                        <br>
+                        <a href="" class="text">Contact Us</a>
+                    </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Newsletter</h3>
+                        <p>Sign up to our newsletter to receive exclusive offers.</p>
+                        <input type="email" name="email" id="email" class="form-control"   placeholder="Enter your Email for offer!" required>
+                    </div>
+                </div>
+                <ul class="social-media social-media--list unstyled-list" role="list"><li class="social-media__item branding-colors--facebook">
+                    <a href="https://www.facebook.com/fashion.suyash/" class="tap-area" target="_blank" rel="noopener" aria-label="Follow on Facebook"><svg aria-hidden="true" focusable="false" width="24" class="icon icon-facebook" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.183 21.85v-8.868H7.2V9.526h2.983V6.982a4.17 4.17 0 0 1 4.44-4.572 22.33 22.33 0 0 1 2.667.144v3.084h-1.83a1.44 1.44 0 0 0-1.713 1.68v2.208h3.423l-.447 3.456h-2.97v8.868h-3.57Z" fill="currentColor"></path>
+                  </svg></a>
+                  </li><li class="social-media__item branding-colors--instagram">
+                    <a href="https://instagram.com/suyash.fashion" class="tap-area" target="_blank" rel="noopener" aria-label="Follow on Instagram"><svg aria-hidden="true" focusable="false" width="24" class="icon icon-instagram" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.4c-2.607 0-2.934.011-3.958.058-1.022.046-1.72.209-2.33.446a4.705 4.705 0 0 0-1.7 1.107 4.706 4.706 0 0 0-1.108 1.7c-.237.611-.4 1.31-.446 2.331C2.41 9.066 2.4 9.392 2.4 12c0 2.607.011 2.934.058 3.958.046 1.022.209 1.72.446 2.33a4.706 4.706 0 0 0 1.107 1.7c.534.535 1.07.863 1.7 1.108.611.237 1.309.4 2.33.446 1.025.047 1.352.058 3.959.058s2.934-.011 3.958-.058c1.022-.046 1.72-.209 2.33-.446a4.706 4.706 0 0 0 1.7-1.107 4.706 4.706 0 0 0 1.108-1.7c.237-.611.4-1.31.446-2.33.047-1.025.058-1.352.058-3.959s-.011-2.934-.058-3.958c-.047-1.022-.209-1.72-.446-2.33a4.706 4.706 0 0 0-1.107-1.7 4.705 4.705 0 0 0-1.7-1.108c-.611-.237-1.31-.4-2.331-.446C14.934 2.41 14.608 2.4 12 2.4Zm0 1.73c2.563 0 2.867.01 3.88.056.935.042 1.443.199 1.782.33.448.174.768.382 1.104.718.336.336.544.656.718 1.104.131.338.287.847.33 1.783.046 1.012.056 1.316.056 3.879 0 2.563-.01 2.867-.056 3.88-.043.935-.199 1.444-.33 1.782a2.974 2.974 0 0 1-.719 1.104 2.974 2.974 0 0 1-1.103.718c-.339.131-.847.288-1.783.33-1.012.046-1.316.056-3.88.056-2.563 0-2.866-.01-3.878-.056-.936-.042-1.445-.199-1.783-.33a2.974 2.974 0 0 1-1.104-.718 2.974 2.974 0 0 1-.718-1.104c-.131-.338-.288-.847-.33-1.783-.047-1.012-.056-1.316-.056-3.879 0-2.563.01-2.867.056-3.88.042-.935.199-1.443.33-1.782.174-.448.382-.768.718-1.104a2.974 2.974 0 0 1 1.104-.718c.338-.131.847-.288 1.783-.33C9.133 4.14 9.437 4.13 12 4.13Zm0 11.07a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4Zm0-8.13a4.93 4.93 0 1 0 0 9.86 4.93 4.93 0 0 0 0-9.86Zm6.276-.194a1.152 1.152 0 1 1-2.304 0 1.152 1.152 0 0 1 2.304 0Z" fill="currentColor"></path>
+                  </svg></a>
+                  </li></ul>
+                  <div class="footer__aside"><p class="heading text-subdued text-xxs">© 2024 - Suyash Fashion <a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a></p></div>
+                  
+            </footer>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(".new").click(function(){
+                $(".Womens").slideToggle();
+            });
+            $(".cnew").click(function(){
+                $(".Mens").slideToggle();
+            });
+            $(".snew").click(function(){
+                $(".sale").slideToggle();
+            });
+        });
+        
+    </script>
+</body>
+</html>
